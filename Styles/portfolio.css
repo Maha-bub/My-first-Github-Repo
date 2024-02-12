@@ -1,0 +1,248 @@
+/* Common Fonts Styles */
+body {
+     font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 20px 0 120px;
+}
+
+.btn-primary {
+     font-size: 20px;
+     border: 0;
+     border-radius: 5px;
+     padding: 10px 20px;
+     background-color: #ffda06;
+     color: rgb(54, 51, 51);
+}
+
+.Title {
+     color: #181818;
+     font-size: 45px;
+     font-weight: 800;
+
+}
+
+.m {
+     color: rgb(241, 176, 56);
+}
+
+nav>ul {
+     display: flex;
+
+}
+
+nav li {
+     list-style: none;
+     margin: 12px;
+
+}
+
+nav a {
+     text-decoration: none;
+}
+
+.header {
+     background-color: #fef2e9;
+     background-image: url("../images/111.png");
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     background-size: 800px 650px;
+
+
+}
+
+.banner {
+     padding: 30px 30px 30px 150px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+}
+
+.profile {
+     width: 500px;
+     height: 600px;
+     border: 1px;
+     border-radius: 50%;
+     position: bottom right;
+
+}
+
+.banner-content {
+     width: 400px;
+     height: 400px;
+}
+
+/* main section styles */
+main{
+     max-width: 1140px;
+     margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+     padding: 100px;
+     background-color: #fef2e9;
+     margin: 100px 0;
+}
+
+.section-title {
+     color: #000000;
+     text-align: center;
+     font-size: 35px;
+     font-weight: 700;
+     font-size: 18px;
+}
+
+.section-discription {
+     color: #181818;
+     text-align: center;
+     font-size: 22px;
+}
+.about-info-container{
+     display: flex;
+     justify-content: space-around;
+}
+.about-info{
+     text-align: center;
+}
+.second-section{
+     padding: 60px;
+     background-color: #58ef7c;
+     margin: 30px 0;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     font-style: italic;
+}
+.skill{
+     border:1px solid #fffdfd;
+     margin: 20px;
+     padding:10px;
+     background-color: white;
+     border-radius: 10px;
+     box-shadow:0px 0px 25px 10px rgb(147, 181, 185);
+}
+.third-section{
+     padding: 60px;
+     background-color: #425457;
+     margin: 100px 0;
+     color: rgb(0, 0, 0);
+     font-size: 18px;
+    
+}
+.skills{
+     color: #fffcfc;
+     text-align: center;
+     padding: 10px;
+     font-size: 30px;
+     text-decoration: underline;
+}
+.imaages{
+     width: 50px;
+     height: 50px;
+}
+.a{
+     width: 70px;
+}
+.skills-container{
+     display: flex;
+   
+}
+.skill-description{
+     padding: 20px;
+}
+.sec{
+     margin-top: 100px;
+}
+.section-title{
+     font-size: 35px;
+     font-weight: 1000;
+     margin-top: 30px;
+     margin: 0px;
+}
+
+.section-title,.resume-conteiner{
+     color: #f1e0e0;
+     background-color: #3b4e52;
+}
+
+.resume-conteiner{
+     display: flex;
+     justify-content: space-around;
+}
+.resume-colum{
+     margin-right: 20px;
+     padding: 5px;
+     justify-content: space-around;
+
+}
+.resume-item-title{
+     font-size: 20px;
+}
+.resume-item-institute,.resume-item-discri{
+     color:#8f6f6f;
+}
+.resume-colum-title{
+     text-align: center;
+     font-size: 26px;
+     font-weight: bold;
+}
+.download-cv{
+     text-align: center;
+     margin-top: 20px;
+     bottom: 5px;
+}
+.footer{
+     margin-top: 100px;
+     padding: 50px;
+     display:flex;
+     justify-content: space-around;
+     background-color: bisque;
+     align-items: center;
+}
+
+.social-icons a{
+     margin-right: 20px;
+
+}
+.f-img{
+     width: 30px;
+     height: 30px;
+}
+.form input[type="text"],textarea, input[type="email"]{
+     display: block;
+     margin-top: 25px;
+     padding: 18px 35px;
+     background-color: #fdfdfd;
+     width: 200px;
+     border-radius: 5px;
+     border: none;
+     
+
+}
+
+.submit-btn
+{
+     font-size: 20px;
+     border: 0;
+     border-radius: 5px;
+     padding: 10px 20px;
+     background-color: #ffda06;
+     color: rgb(54, 51, 51);
+     margin-top: 10px;
+     
+}
+
+.last-div{
+     margin-top: 10px;
+     padding: 30px;
+    text-align: center;
+    background-color: #181818;
+    color:white;
+}
+
